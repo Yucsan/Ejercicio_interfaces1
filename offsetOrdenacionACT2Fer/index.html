@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Fernando Chang">
+  <meta name="copyright" content="">
+  <meta name="contact" content="mantenimiento@ejemplo.com">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="robots" content="NoIndex, NoFollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/Boostrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="icon" type="icon/png" href="favicon.png">
+  <title>Actividad 02 Offset y Ordenación FChang</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <header class="col-md-12"><span>Header</span></header>
+    </div>
+   
+    <div> <!-- AZULES -->
+      <div class="row">
+        <div class="col-6 col-sm-3 offset-md-3 azul"><span>1</span></div>
+        <div class="col-6 col-sm-3 azul"><span>2</span></div>
+        <div class="d-none d-md-block col-md-3"></div><!--elemento transparente -->
+        <div class="col-6 col-sm-3 azul"><span>3</span></div>
+        <div class="col-6 col-sm-3 offset-md-6 azul"><span>4</span></div>
+      </div>
+    </div>
+
+    <div class="row"><!--TABLET-->
+      <section class="d-none d-sm-flex d-md-none col-sm-12 cyan"><span>Tablet</span></section>
+    </div>  
+    
+    <div><!-- GRISES -->
+      <div class="row">
+        <div class="col-6 col-sm-3 gris order-md-4"><span>a</span></div>
+        <div class="col-6 col-sm-3 gris order-md-3"><span>b</span></div>
+        <div class="col-6 col-sm-3 gris order-md-2"><span>c</span></div>
+        <div class="col-6 col-sm-3 gris order-md-1"><span>d</span></div>
+      </div>
+    </div>
+    
+    <div class="row"><!-- DESKTOP TABLET MOBILE-->
+      <section class="d-none d-sm-none d-md-flex col-md-12 cyan"><span>Desktop</span></section>
+      <section class="d-sm-none col-12 cyan"><span>Mobile</span></section>
+    </div>  
+    
+    <div><!-- Caritas -->
+      <div class="row">
+        <div class="d-none d-sm-flex col-sm-6 order-sm-2 order-md-1 col-md-3 offset-md-3 coral"><span>:(</span></div>
+        <div class="col-sm-6 order-sm-1 order-md-2 col-md-3 coral"><span>:D</span></div>
+      </div>
+    </div>
+    
+    <div class="row"><!-- Coral -->
+      <footer class="col-md-12 d-none d-sm-flex"><span>Footer</span></footer>
+    </div>
+
+  </div>
+
+  <noscript>Debes activar JavaScript</noscript>
+  <script type="text/javascript" src="assets/vendor/Boostrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  <script type="text/javascript">
+  </script>
+
+</body>
+
+</html>

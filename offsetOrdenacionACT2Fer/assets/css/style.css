@@ -1,0 +1,46 @@
+/* ** CSS Offset y Ordenación FChang  Alumno: FChang ****/
+*{ margin:0px; padding: 0px; box-sizing: border-box;}
+
+header{
+  background: chartreuse;
+  border: solid 5px white;
+  padding: 5px;
+  display: flex;
+}
+.azul{
+  background: rgb(14, 94, 205);
+  border: solid 5px white;
+  padding: 5px;
+  display: flex;
+}
+.gris{
+  background: gray;
+  border: solid 5px white;
+  padding: 8px;
+  display: flex;
+}
+.cyan{
+  display: flex;
+  background: cyan;
+  padding: 10px;
+  border: solid 5px white;
+}
+.coral{
+  background: coral;
+  padding: 8px;
+  border: solid 5px white;
+  display: flex;
+}
+
+footer {
+  background: greenyellow;
+  padding: 5px;
+  border: solid 5px white;
+  display: flex;
+}
+span{
+  margin: auto;
+  font-style: italic;
+}
+
+

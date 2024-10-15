@@ -1,0 +1,1 @@
+<?php $identidad = 5; ?>

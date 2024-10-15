@@ -1,0 +1,22 @@
+*{ margin:0px; padding: 0px; box-sizing: border-box;}
+body{
+	
+}
+
+.creador{
+	font-family: 'roboto';
+	margin: auto;
+	background: lightgray;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
+
+.txtArea{
+	width: 95%;
+	height: 100px;
+	resize: none;
+}
+
+

@@ -1,0 +1,60 @@
+/* AQUA CSS
+==========================
+FUENTES PERSONALIZADAS
+==========================
+*/
+@font-face{
+  font-family: '';
+  src: url('') format('');
+}
+
+@font-face{
+  font-family: 'popM';
+  src: url('../rsc/fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+:root{
+--morado: #793DA3;
+--darkm: #3D1C55;
+--swiper-theme-color: magenta;
+--corp: #d40f7d;
+--swiper-pagination-bullet-inactive-color: gray;
+}
+
+
+*{ margin:0px; padding: 0px; box-sizing: border-box;}
+
+
+@media screen and (max-width: 1200px){
+
+}
+
+/* RESPONSIVE 1080 PX*/
+@media screen and (max-width: 1080px){
+
+}
+
+/* RESPONSIVE 900 PX*/
+@media screen and (max-width: 900px){
+
+
+}
+
+@media screen and (max-width: 750px){
+
+}
+
+@media screen and (max-width: 650px){
+
+}
+
+/*
+input, select, textarea {
+  width: 100%;
+}
+*/
+
+@media screen and (max-width: 424px){
+
+
+}

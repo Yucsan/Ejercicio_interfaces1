@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="assets/Boostrap/css/bootstrap.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<title>Plantilla Boostrap</title>
+</head>
+<body>
+
+
+  
+
+  <div class="container">   
+    <div class="row justify-content-center mt-3">
+      
+      <div class="col-md-8">        
+          <div class="card text-center border-info">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#opcion1">Opcion 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#opcion2">Opcion 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"data-bs-toggle="tab" href="#opcion3">Opcion 3</a>
+                </li>                   
+              </ul>
+            </div>
+            <div class="tab-content">
+
+              <div class="card-body tab-pane fade show active" id="opcion1">
+                <h4 class="card-title">Trimestre 1</h4>
+                <p class="card-text">
+                  <h2>Fecha Inicio: Septiembre</h2>
+                  <h2>Fecha Fin: Diciembre</h2>
+                  <h3>Dias 90 dias</h3>
+                </p>
+                <a href="#" class="btn btn-primary">Aceptar</a>
+              </div>
+              <div class="card-body tab-pane fade" id="opcion2">
+                <h4 class="card-title">Trimestre 2</h4>
+                <p class="card-text">
+                  <h2>Fecha Inicio: Enero</h2>
+                  <h2>Fecha Fin: Marzo</h2>
+                  <h3>Dias 85 dias</h3>
+                </p>
+                <a href="#" class="btn btn-primary">Aceptar</a>
+              </div>
+              <div class="card-body tab-pane fade" id="opcion3">
+                <h4 class="card-title">Trimestre 3</h4>
+                <p class="card-text">
+                  <h2>Fecha Inicio: Abril</h2>
+                  <h2>Fecha Fin: Junio</h2>
+                  <h3>Dias 87 dias</h3>
+                </p>
+                <a href="#" class="btn btn-primary">Aceptar</a>
+              </div>
+            </div>
+
+          </div>          
+      </div>
+     
+    </div>
+  </div>
+  <h2 class="text-center py-5">Formulario de Matricula</h2>
+  <div class="container mt-3">
+
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre">
+      </div>
+      <div class="col-md-6">
+        <label for="apellido" class="form-label">Apellidos</label>
+        <input type="text" class="form-control" id="apellido">
+      </div>
+      <div class="col-md-6">
+        <label for="clave" class="form-label">Clave</label>
+        <input type="password" class="form-control" id="clave">
+      </div>
+      <div class="col-md-6">
+        <label for="edad" class="form-label">Edad</label>
+        <input type="number" class="form-control" id="edad">
+      </div>
+      <!-- ************ -->
+     <div>
+      <h3>Año de estudio: </h3>
+      <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" value="" id="radio1" name="grupo2">
+            <label class="form-check-label" for="radio1">
+              1º ESO
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" value="" id="radio2" name="grupo2">
+            <label class="form-check-label" for="radio2">
+              2º ESO
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" value="" id="radio3" name="grupo2">
+            <label class="form-check-label" for="radio3">
+              3º ESO
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" value="" id="radio3" name="grupo2">
+          <label class="form-check-label" for="radio3">
+              4º ESO
+          </label>
+      </div>
+     </div>
+
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Confirmar</button>
+      </div>
+    </form>
+  </div> 
+
+ <!-- ACORDION -->
+ <div class="container mt-5">
+
+  <div id="accordion1">
+    <div class="accordion-item">
+      <div class="accordion-header" id="cabecera1">
+        <h5 class="mb-0">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#respuesta1" aria-expanded="true"
+            aria-controls="respuesta1">
+            Malaga
+          </button>
+        </h5>
+      </div>
+      <div id="respuesta1" class="accordion-collapse collapse show" aria-labelledby="cabecera1" data-bs-parent="#accordion1">
+        <ul>
+          <li>Torremolinos</li>
+          <li>Benalmadena</li>
+          <li>Marbella</li>
+          <li><a href="https://www.malaga.eu/" target="_blank">MALAGA ENLACE</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header" id="cabecera2">
+        <h5 class="mb-0">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#respuesta2" aria-expanded="true"
+            aria-controls="respuesta2">
+            SEVILLA
+          </button>
+        </h5>
+      </div>
+      <div id="respuesta2" class="accordion-collapse collapse" aria-labelledby="cabecera2" data-bs-parent="#accordion1">
+        <div class="accordion-body">
+            <ul>
+              <li>Sevilla</li>
+              <li>2 Hermanas</li>
+              <li>Casalla de la Sierra</li>
+              <li><a href="https://www.sevilla.org/" target="_blank">SEVILLA ENLACE</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header" id="cabecera3">
+        <h5 class="mb-0">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#respuesta3" aria-expanded="true"
+            aria-controls="respuesta3">
+            Cadiz
+          </button>
+        </h5>
+      </div>
+      <div id="respuesta3" class="accordion-collapse collapse" aria-labelledby="cabecera3" data-bs-parent="#accordion1">
+        <div class="accordion-body">
+          <ul>
+            <li>Chipiona</li>
+            <li>Conil</li>
+            <li>Pto Santa María</li>
+            <li><a href="https://www.cadizcf.com/" target="_blank">CADIZ ENLACE</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="btn-group" role="group" aria-label0="Provincias">
+  <div class="dropdown">
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+      SEVILLA
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="http://www.google.com">Información</a>
+          <a class="dropdown-item" href="http://www.bing.com">Habitantes</a>
+          <a class="dropdown-item" href="http://www.yahoo.com">algo más</a>
+    </div>
+  </div>  
+  <div class="dropdown">
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+      MALAGA
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="http://www.google.com">Información</a>
+          <a class="dropdown-item" href="http://www.bing.com">Habitantes</a>
+          <a class="dropdown-item" href="http://www.yahoo.com">algo más</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+      CADIZ
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="http://www.google.com">Información</a>
+          <a class="dropdown-item" href="http://www.bing.com">Habitantes</a>
+          <a class="dropdown-item" href="http://www.yahoo.com">algo más</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+      CORDOBA
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="http://www.google.com">Información</a>
+          <a class="dropdown-item" href="http://www.bing.com">Habitantes</a>
+          <a class="dropdown-item" href="http://www.yahoo.com">algo más</a>
+    </div>
+  </div>    
+</div>
+  
+
+
+
+</div>
+<footer class="mt-5" style="width: 100%; height: 30vh; background-color: black; display: flex;">
+    <span style="color: white; margin: auto;">copyright 2024</span>
+</footer>
+  
+	
+	<!-- <script type="text/javascript" src="assets/Boostrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/Boostrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
