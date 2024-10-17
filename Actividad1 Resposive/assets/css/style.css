@@ -1,60 +1,33 @@
-/* AQUA CSS
-==========================
-FUENTES PERSONALIZADAS
-==========================
-*/
-@font-face{
-  font-family: '';
-  src: url('') format('');
-}
-
-@font-face{
-  font-family: 'popM';
-  src: url('../rsc/fonts/Poppins-Medium.ttf') format('truetype');
-}
-
-:root{
---morado: #793DA3;
---darkm: #3D1C55;
---swiper-theme-color: magenta;
---corp: #d40f7d;
---swiper-pagination-bullet-inactive-color: gray;
-}
-
-
+/*  ***** CSS DISEÑO RESPONSIVE FCHANG   */
 *{ margin:0px; padding: 0px; box-sizing: border-box;}
 
-
-@media screen and (max-width: 1200px){
-
+aside{
+  background:red;
+  border: solid 5px white;
+}
+.azul{
+  background-color:blue;
+  height: 6vh;
+  border: solid 5px white;
+}
+nav{
+  background: greenyellow;
+  height: 6vh;
+  border: solid 5px white;
+}
+.magenta{
+  background: magenta;
+  height: 6vh;
+  border: solid 5px white;
+}
+.naranja{
+  background: orange;
+  height: 7vh;
+  border: solid 5px white;
+}
+footer{
+  background: greenyellow;
+  height: 5vh;
+  border: solid 5px white;
 }
 
-/* RESPONSIVE 1080 PX*/
-@media screen and (max-width: 1080px){
-
-}
-
-/* RESPONSIVE 900 PX*/
-@media screen and (max-width: 900px){
-
-
-}
-
-@media screen and (max-width: 750px){
-
-}
-
-@media screen and (max-width: 650px){
-
-}
-
-/*
-input, select, textarea {
-  width: 100%;
-}
-*/
-
-@media screen and (max-width: 424px){
-
-
-}
