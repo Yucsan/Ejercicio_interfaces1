@@ -1,0 +1,36 @@
+/*  ***** CSS DISEÑO RESPONSIVE FCHANG   */
+*{ margin:0px; padding: 0px; box-sizing: border-box;}
+div {
+  text-align: center;
+}
+.rojo{
+  background:tomato;
+}
+.azul{
+  background:blue;
+}
+.amarillo{
+  background: yellow;
+}
+.magenta{
+  background: magenta;
+}
+.naranja{
+  background: orange;
+}
+.verde{
+  background: lightgreen;
+}
+.verdeMarino{
+  background: seagreen;
+}
+.gris{
+  background: gray;
+}
+.marron{
+  background: brown;
+}
+.footer{
+  background: cyan;
+}
+
